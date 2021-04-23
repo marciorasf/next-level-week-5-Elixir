@@ -9,7 +9,5 @@ defmodule Inmana.Supplies.Create do
   end
 
   defp handle_insert({:ok, %Supply{}} = result), do: result
-
   defp handle_insert({:error, result}), do: {:error, %{result: result, status: :bad_request}}
-
 end

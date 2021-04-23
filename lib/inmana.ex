@@ -6,4 +6,5 @@ defmodule Inmana do
 
   # Supplies
   defdelegate create_supply(params), to: Supplies.Create, as: :call
+  defdelegate get_supply(params), to: Supplies.Get, as: :call
 end
