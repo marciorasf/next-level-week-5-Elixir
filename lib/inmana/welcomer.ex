@@ -1,5 +1,5 @@
 defmodule Inmana.Welcomer do
-  def welcome(${"name"=>name, "age"=>age}) do
+  def welcome(%{"name"=>name, "age"=>age}) do
     age = String.to_integer(age)
 
     name
