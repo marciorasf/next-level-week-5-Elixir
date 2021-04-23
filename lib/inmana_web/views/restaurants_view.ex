@@ -7,5 +7,4 @@ defmodule InmanaWeb.RestaurantsView do
       restaurant: restaurant
     }
   end
-
 end
